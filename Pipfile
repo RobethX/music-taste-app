@@ -8,6 +8,7 @@ Flask = "*"
 tensorflow = "*"
 numpy = "*"
 python-dotenv = "*"
+spotipy = "*"
 
 [dev-packages]
 flake8 = "*"
@@ -20,6 +21,7 @@ isort = "*"
 pytest = "*"
 tox = "*"
 bump2version = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.8"
