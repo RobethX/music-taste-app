@@ -26,7 +26,8 @@ all: clean venv run
 
 run:
 	@echo Run the script
-	pipenv run python3 $(NAME)
+	#pipenv run python3 $(NAME)
+	pipenv run flask run
 
 venv: clean
 	@echo Initialize virtualenv, i.e., install required packages etc.
@@ -61,3 +62,6 @@ reformat: isort
 
 deploy: test coverage isort reformat lint
 	@echo NOT IMPLEMENTED: Deploy
+
+version:
+	@echo NOT IMPLEMENTED: Version

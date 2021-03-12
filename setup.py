@@ -15,7 +15,7 @@ URL = 'https://github.com/me/myproject' # TODO: set repo URL
 EMAIL = 'rmchiocchio@wpi.edu'
 AUTHOR = 'Rob Chiocchio'
 REQUIRES_PYTHON = '>=3.8.0'
-VERSION = '0.0.1'
+VERSION = '0.0.1' # Managed by bump2version
 
 # What packages are required for this module to be executed?
 REQUIRED = [
